@@ -1,5 +1,12 @@
 #!/bin/bash
 
+for tool in gau waybackurls katana httpx gf; do
+    command -v "$tool" >/dev/null 2>&1 || {
+        echo "[-] '$tool' not found. Verify installation or ensure \$HOME/go/bin is in PATH."
+        exit 1
+    }
+done
+
 [ -z "$1" ] && echo "Usage: $0 example.com" && exit 1
 
 d=$1
