@@ -1,6 +1,10 @@
 #!/bin/bash
 
-echo -e "\033[44;1;37m  URL-Recon-Automation  \033[0m"
+echo -e "\033[1;34m"
+echo "=============================="
+echo "   URL-Recon-Automation"
+echo "=============================="
+echo -e "\033[0m"
 
 for tool in gau waybackurls katana httpx gf; do
     command -v "$tool" >/dev/null 2>&1 || {
