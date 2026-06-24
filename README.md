@@ -28,6 +28,8 @@ It combines URL discovery, crawling, live URL validation, and vulnerability patt
 
 ## 📦 Installation
 
+cd URL-Recon-Automation
+
 ```bash
 chmod +x install.sh
 ./install.sh
