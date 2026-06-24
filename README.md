@@ -28,7 +28,11 @@ It combines URL discovery, crawling, live URL validation, and vulnerability patt
 
 ## 📦 Installation
 
+```bash
+git clone https://github.com/michjoshcyberseccs03-star/URL-Recon-Automation
 cd URL-Recon-Automation
+
+```
 
 ```bash
 chmod +x install.sh
