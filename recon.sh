@@ -41,7 +41,7 @@ cat \
 echo "[+] Running httpx..."
 httpx -l "$out/input/all.txt" \
 -silent \
--fc 404,400 \
+-mc 200 \
 -random-agent \
 > "$out/input/live.txt"
 
